@@ -1,0 +1,1 @@
+SELECT 'PUT_YOUR_Q2_SQL_HERE' AS finalQuery;

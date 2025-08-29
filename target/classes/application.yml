@@ -1,0 +1,24 @@
+server:
+  port: 8080
+
+spring:
+  datasource:
+    url: jdbc:h2:mem:answersdb;DB_CLOSE_DELAY=-1;MODE=MySQL
+    driverClassName: org.h2.Driver
+    username: sa
+    password:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+  h2:
+    console:
+      enabled: true
+
+challenge:
+  base-url: "https://bfhldevapigw.healthrx.co.in"
+  generate-path: "/hiring/generateWebhook/JAVA"
+  submit-fallback-path: "/hiring/testWebhook/JAVA"
+  name: "Your Name Here"
+  reg-no: "REG12347"
+  email: "your@email.com"

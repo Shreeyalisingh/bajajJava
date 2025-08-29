@@ -1,0 +1,8 @@
+com\bajaj\qualifier\service\HiringChallengeRunner.class
+com\bajaj\qualifier\model\AnswerRecord.class
+com\bajaj\qualifier\repo\AnswerRecordRepository.class
+com\bajaj\qualifier\dto\GenerateWebhookRequest.class
+com\bajaj\qualifier\dto\GenerateWebhookResponse.class
+com\bajaj\qualifier\config\RestClientConfig.class
+com\bajaj\qualifier\JavaQualifierApplication.class
+com\bajaj\qualifier\config\AppProperties.class
